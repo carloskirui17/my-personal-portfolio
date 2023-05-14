@@ -8,7 +8,7 @@ export default function NavBar() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a target="_blank" href="https://github.com/maninthehood" className="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src="https://cdn4.iconfinder.com/data/icons/emoji-18/61/15-64.png"
               className="h-8 mr-3"
               alt="Flowbite Logo"
             />
