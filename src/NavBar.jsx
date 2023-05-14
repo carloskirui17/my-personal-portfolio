@@ -1,19 +1,19 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
     <>
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a target="_blank" href="https://github.com/maninthehood" className="flex items-center">
+          <a className="flex items-center">
             <img
               src="https://cdn4.iconfinder.com/data/icons/emoji-18/61/15-64.png"
               className="h-8 mr-3"
-              alt="Flowbite Logo"
+              alt="Website Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Carlos Kirui
+              <Link to="/">Carlos Kirui</Link>
             </span>
           </a>
           <button
