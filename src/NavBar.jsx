@@ -40,30 +40,30 @@ export default function NavBar() {
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              
+
               <li>
-								<Link 
+                <Link
                   className="block py-2 pl-3 pr-4 text-white bg-gray-900  hover:scale-y-125 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-									
-									to="/about">About</Link>
+
+                  to="/about">About</Link>
               </li>
               <li>
-								<Link 
+                <Link
                   className="block py-2 pl-3 pr-4 text-white bg-gray-900  hover:scale-y-125 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-									
-									to="/goals">Goals</Link>
+
+                  to="/goals">Goals</Link>
               </li>
-							<li>
-								<Link 
+              <li>
+                <Link
                   className="block py-2 pl-3 pr-4 text-white bg-gray-900  hover:scale-y-125 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-									
-									to="/projects">Projects</Link>
+
+                  to="/projects">Projects</Link>
               </li>
-														<li>
-								<Link 
+              <li>
+                <Link
                   className="block py-2 pl-3 pr-4 text-white bg-gray-900  hover:scale-y-125 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-									
-									to="/profile">Profile</Link>
+
+                  to="/profile">Profile</Link>
               </li>
             </ul>
           </div>
