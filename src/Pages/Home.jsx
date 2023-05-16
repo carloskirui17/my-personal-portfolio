@@ -75,7 +75,7 @@ export default function Home() {
                     </div>
                 </form>
             </div>
-        </div>
+        elifor</div>
     </div>
 </section>
 
