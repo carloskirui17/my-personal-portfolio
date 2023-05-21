@@ -57,12 +57,6 @@ export default function NavBar() {
                 <Link
                   className="block py-2 pl-3 pr-4 text-white bg-gray-900  hover:scale-y-125 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
 
-                  to="/projects">Projects</Link>
-              </li>
-              <li>
-                <Link
-                  className="block py-2 pl-3 pr-4 text-white bg-gray-900  hover:scale-y-125 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-
                   to="/profile">Profile</Link>
               </li>
             </ul>

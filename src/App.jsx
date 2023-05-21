@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import Projects from './Pages/Projects';
 import About from './Pages/About';
 import Goals from './Pages/Goals';
 import NavBar from './NavBar';
@@ -15,7 +14,6 @@ export default function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/goals" element={<Goals />} />
-				<Route path="/projects" element={<Projects />} />
 				<Route path="/profile" element={<Login />} />
 			</Routes>
 			<Footer />
