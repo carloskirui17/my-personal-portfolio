@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 export default function Footer(){
 	return (
 		<>
@@ -8,7 +9,7 @@ export default function Footer(){
           <div class="mb-6 md:mb-0">
               <a href="https://flowbite.com/" class="flex items-center">
                   <img src="https://cdn4.iconfinder.com/data/icons/emoji-18/61/15-64.png" class="h-8 mr-3" alt="FlowBite Logo" />
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Carlos Kirui</span>
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">              <Link to="/">`Hospital Name`</Link></span>
               </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

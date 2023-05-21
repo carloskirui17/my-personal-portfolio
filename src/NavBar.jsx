@@ -8,12 +8,12 @@ export default function NavBar() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a className="flex items-center">
             <img
-              src="https://cdn4.iconfinder.com/data/icons/emoji-18/61/15-64.png"
+              src="https://img.icons8.com/?size=512&id=bzZ1vLaK5u1A&format=png"
               className="h-8 mr-3"
               alt="Website Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              <Link to="/">Carlos Kirui</Link>
+              <Link to="/">`Hospital Name`</Link>
             </span>
           </a>
           <button
