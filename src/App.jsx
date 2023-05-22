@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
+import NavBar from './NavBar';
+import Footer from './Footer'
+import Home from "./Pages/Home";
+import Login from './Pages/Login';
 import About from './Pages/About';
 import Goals from './Pages/Goals';
-import NavBar from './NavBar';
-import Home from "./Pages/Home";
-import Footer from './Pages/Footer'
-import Login from './Pages/Login';
 
 export default function App() {
 	return (
