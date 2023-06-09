@@ -13,7 +13,7 @@ export default function NavBar() {
               alt="Website Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              <Link to="/">`Hospital Name`</Link>
+              <Link to="/">Carlos Kirui</Link>
             </span>
           </a>
           <button

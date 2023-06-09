@@ -3,10 +3,10 @@ import React from 'react';
 export default function Login() {
 	return (
 		<>
-			<div className='bg-gray-900'>
-				<div class="w-full lg:max-w-xl md:max-h-xl mx-auto p-6 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl dark:bg-gray-800">
+			<div className='bg-slate-950'>
+				<div class="w-full lg:max-w-xl md:max-h-xl mx-auto p-6 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl dark:bg-slate-950">
 					<h2 class="text-2xl font-bold text-gray-900 dark:text-white">
-						Sign in to `Hospital Name`
+						Sign in to My Web App
 					</h2>
 					<form class="mt-8 space-y-6" action="#" method="post">
 						<div>
